@@ -11,6 +11,8 @@ import tn.m104.rh.service.IStudentService;
 
 @RestController
 @AllArgsConstructor
+
+
 @RequestMapping("/student")
 @CrossOrigin(allowedHeaders="*",origins="*")
 public class StudentController {
